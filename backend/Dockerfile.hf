@@ -1,0 +1,68 @@
+# ── Hugging Face Spaces Dockerfile ────────────────────────────
+# HF Spaces requires:
+#   - SDK: docker
+#   - App port: 7860
+#   - Non-root user (UID 1000)
+#
+# Space metadata (read by HF, must be at top of README.md in the Space repo)
+# ---
+# title: RoleSense AI Backend
+# emoji: 🎯
+# colorFrom: indigo
+# colorTo: purple
+# sdk: docker
+# pinned: false
+# ---
+
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# System deps
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential gcc && \
+    rm -rf /var/lib/apt/lists/*
+
+# Install all Python deps (backend + AI engine)
+COPY backend/requirements.txt ./backend/requirements.txt
+COPY requirements.txt ./requirements.txt
+
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r backend/requirements.txt && \
+    pip install --no-cache-dir \
+        sentence-transformers==2.7.0 \
+        scikit-learn \
+        numpy \
+        faiss-cpu \
+        pandas \
+        tqdm
+
+# Copy application code
+COPY backend/ ./backend/
+COPY src/      ./src/
+COPY data/     ./data/
+COPY cache/    ./cache/
+
+# Download + cache the model at build time
+# So the Space starts instantly (no network needed at runtime)
+RUN python -c "\
+import os; \
+os.environ['TRANSFORMERS_OFFLINE'] = '0'; \
+from sentence_transformers import SentenceTransformer; \
+m = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2'); \
+print('Model ready, dim=', m.get_embedding_dimension())"
+
+# Environment
+ENV PYTHONPATH=/app
+ENV TRANSFORMERS_OFFLINE=1
+ENV HF_HUB_OFFLINE=1
+ENV PORT=7860
+
+# HF Spaces runs as user 1000 — create and switch
+RUN useradd -m -u 1000 appuser && chown -R appuser /app
+USER appuser
+
+# HF Spaces requires port 7860
+EXPOSE 7860
+
+CMD ["uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", "7860"]
