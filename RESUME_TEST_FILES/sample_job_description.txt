@@ -1,0 +1,42 @@
+Senior Software Engineer — Full Stack (Python / React)
+Location: Bangalore, India (Hybrid)
+Experience: 3–6 years
+Employment Type: Full-Time
+
+About the Role
+We are looking for a talented Senior Software Engineer to join our product engineering team.
+You will design, build, and maintain scalable web applications used by millions of users.
+
+Responsibilities
+- Design and develop RESTful APIs using Python and FastAPI or Django
+- Build responsive frontend interfaces using React and TypeScript
+- Write clean, testable, and well-documented code
+- Collaborate with product managers and designers to ship features
+- Participate in code reviews and mentor junior engineers
+- Manage and optimise PostgreSQL and MongoDB databases
+- Deploy and monitor services using Docker and AWS
+- Work in an Agile / Scrum environment with two-week sprints
+
+Required Skills
+- Python (3+ years)
+- React and TypeScript (2+ years)
+- REST API design and development
+- SQL — PostgreSQL or MySQL
+- Git version control
+- Docker and basic DevOps
+- Strong communication and problem-solving skills
+
+Nice to Have
+- Experience with FastAPI or Django REST Framework
+- Knowledge of Redis, Kubernetes, or CI/CD pipelines
+- Exposure to machine learning or data pipelines
+- Prior experience in a startup environment
+
+Education
+- Bachelor's degree in Computer Science, Engineering, or equivalent
+- Master's degree is a plus
+
+Compensation
+- Competitive salary + equity
+- Health insurance, flexible leave
+- Remote-friendly team

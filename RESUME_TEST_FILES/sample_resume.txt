@@ -1,0 +1,66 @@
+PRIYA SHARMA
+Software Engineer
+Email: priya.sharma@email.com | Phone: +91-9876543210
+LinkedIn: linkedin.com/in/priyasharma | GitHub: github.com/priyasharma
+Location: Bangalore, India
+
+SUMMARY
+Software Engineer with 4 years of experience building full-stack web applications.
+Proficient in Python, React, and TypeScript with a strong focus on clean code and scalable APIs.
+Experienced with Agile development, REST API design, Docker, and cloud deployments on AWS.
+
+EXPERIENCE
+
+Senior Software Engineer — TechNova Solutions, Bangalore
+Jan 2023 – Present (1.5 years)
+- Led development of a customer analytics dashboard using React, TypeScript, and Python FastAPI
+- Designed and maintained 15+ REST APIs serving 500,000 daily active users
+- Reduced API response time by 40% through PostgreSQL query optimisation and Redis caching
+- Managed Docker-based deployments on AWS EC2 with CI/CD pipelines using GitHub Actions
+- Mentored 3 junior engineers and led weekly code review sessions
+
+Software Engineer — DataBridge Technologies, Bangalore
+Jun 2021 – Dec 2022 (1.5 years)
+- Built full-stack features using React, Node.js, and Django REST Framework
+- Migrated legacy SQL queries to optimised PostgreSQL stored procedures, improving speed by 30%
+- Integrated third-party payment APIs (Razorpay, Stripe) into the checkout flow
+- Wrote unit and integration tests using Jest and pytest, maintaining 85% code coverage
+
+Junior Developer — Freelance
+Aug 2020 – May 2021 (10 months)
+- Developed 4 client websites using React and Python Flask
+- Implemented MongoDB databases for content management systems
+- Delivered projects on time with Git-based version control and agile sprints
+
+EDUCATION
+
+Bachelor of Engineering — Computer Science
+Visvesvaraya Technological University, Bangalore
+Graduated: 2020 | CGPA: 8.4 / 10
+
+SKILLS
+
+Languages: Python, JavaScript, TypeScript, SQL, HTML, CSS
+Frontend: React, Vue, Redux, Tailwind CSS
+Backend: FastAPI, Django, Flask, Node.js, REST, GraphQL
+Databases: PostgreSQL, MySQL, MongoDB, Redis
+DevOps & Cloud: Docker, AWS (EC2, S3, Lambda), Git, CI/CD, Linux
+Testing: Jest, pytest, Selenium
+Tools: Figma, Jira, Postman, GitHub, VS Code
+
+CERTIFICATIONS
+- AWS Certified Developer – Associate (2023)
+- Python Data Science — Coursera (2022)
+
+PROJECTS
+
+RoleMatch AI (Personal Project)
+- Built a candidate ranking system using Python, FastAPI, and sentence-transformers NLP
+- Deployed with Docker on AWS, processing 1,000+ candidate profiles per query
+
+E-Commerce Platform
+- Full-stack app with React frontend, Django backend, PostgreSQL database
+- Implemented product search, cart, payments, and admin dashboard
+
+LANGUAGES
+English (Fluent), Hindi (Native), Kannada (Basic)

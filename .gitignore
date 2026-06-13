@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.tox/
+
+# Environments
+.env
+venv/
+.venv/
+
+# Data
+*.ipynb
+.notebooks/
+
+# Caches
+cache/
+*.pkl
+
+# OS
+.DS_Store
+thumbs.db
+*.sublime-*
+
+# Streamlit
+.streamlit/
+
+# Angular / Node
+node_modules/
+frontend/dist/
+frontend/.angular/
+*.log
+.backend.log
+.frontend.log
+
+# IDE
+.vscode/
+.idea/
+
+# Backend
+*.db
+backend/*.db

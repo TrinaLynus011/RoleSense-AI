@@ -1,0 +1,165 @@
+{
+  "job_title": "Software Engineer - Development",
+  "ranked_candidates": [
+    {
+      "rank": 1,
+      "candidate_id": 544,
+      "name": 544,
+      "overall_score": 0.5505,
+      "score_breakdown": {
+        "semantic_similarity": 0.38500720262527466,
+        "skills_match": 0.9,
+        "experience_match": 1.0,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.25,
+        "location_match": 0.5,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 2,
+      "candidate_id": 550,
+      "name": 550,
+      "overall_score": 0.531,
+      "score_breakdown": {
+        "semantic_similarity": 0.4534093141555786,
+        "skills_match": 0.7,
+        "experience_match": 1.0,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.25,
+        "location_match": 0.5,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 3,
+      "candidate_id": 551,
+      "name": 551,
+      "overall_score": 0.4971,
+      "score_breakdown": {
+        "semantic_similarity": 0.40697431564331055,
+        "skills_match": 0.6,
+        "experience_match": 1.0,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.25,
+        "location_match": 0.5,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 4,
+      "candidate_id": 568,
+      "name": 568,
+      "overall_score": 0.4905,
+      "score_breakdown": {
+        "semantic_similarity": 0.31829002499580383,
+        "skills_match": 0.7,
+        "experience_match": 1.0,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.25,
+        "location_match": 0.5,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 5,
+      "candidate_id": 557,
+      "name": 557,
+      "overall_score": 0.4848,
+      "score_breakdown": {
+        "semantic_similarity": 0.4994634687900543,
+        "skills_match": 0.4,
+        "experience_match": 1.0,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.25,
+        "location_match": 0.5,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 6,
+      "candidate_id": 278,
+      "name": 278,
+      "overall_score": 0.4829,
+      "score_breakdown": {
+        "semantic_similarity": 0.4930925965309143,
+        "skills_match": 0.4,
+        "experience_match": 1.0,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.25,
+        "location_match": 0.5,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 7,
+      "candidate_id": 286,
+      "name": 286,
+      "overall_score": 0.4829,
+      "score_breakdown": {
+        "semantic_similarity": 0.49298611283302307,
+        "skills_match": 0.4,
+        "experience_match": 1.0,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.25,
+        "location_match": 0.5,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 8,
+      "candidate_id": 547,
+      "name": 547,
+      "overall_score": 0.4721,
+      "score_breakdown": {
+        "semantic_similarity": 0.4569317102432251,
+        "skills_match": 0.4,
+        "experience_match": 1.0,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.25,
+        "location_match": 0.5,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 9,
+      "candidate_id": 573,
+      "name": 573,
+      "overall_score": 0.472,
+      "score_breakdown": {
+        "semantic_similarity": 0.3231887221336365,
+        "skills_match": 0.6,
+        "experience_match": 1.0,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.25,
+        "location_match": 0.5,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 10,
+      "candidate_id": 270,
+      "name": 270,
+      "overall_score": 0.4704,
+      "score_breakdown": {
+        "semantic_similarity": 0.3847314119338989,
+        "skills_match": 0.5,
+        "experience_match": 1.0,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.25,
+        "location_match": 0.5,
+        "sector_match": 0.2
+      }
+    }
+  ]
+}

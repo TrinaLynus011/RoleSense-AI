@@ -1,0 +1,709 @@
+{
+  "job_title": "Delivery Executive - Mumbai",
+  "ranked_candidates": [
+    {
+      "rank": 1,
+      "candidate_id": "6a895f08198b8122b7ced1b2d09accbd47da9ca6196d185ba84f548cd75d5a92",
+      "name": "Sumit Ghorpade",
+      "overall_score": 0.694,
+      "score_breakdown": {
+        "semantic_similarity": 0.6465504765510559,
+        "skills_match": 1.0,
+        "experience_match": 0.8,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      },
+      "explanation": {
+        "strengths": [
+          "Strong skills match (100%)",
+          "Strong experience relevance (80%)",
+          "Strong location match (100%)",
+          "Strong sector alignment (100%)",
+          "Mobile-verified profile"
+        ],
+        "weaknesses": [
+          "Limited qualification level (20%)",
+          "Limited recruiter engagement (30%)"
+        ],
+        "skill_highlights": [
+          "Dusting",
+          "Washing",
+          "Packing",
+          "Mopping",
+          "Cleaning"
+        ],
+        "recommendation": "Recommended. Good fit with some areas for development.",
+        "confidence": "Medium",
+        "hybrid_score": 0.694,
+        "top_dimensions": [
+          "Skills match",
+          "Experience relevance",
+          "Location match"
+        ],
+        "growth_areas": [
+          "Qualification level",
+          "Recruiter engagement"
+        ]
+      },
+      "skills": [
+        "Bike Riding",
+        "Last Mile Delivery",
+        "Bathroom Cleaning",
+        "Cleaning",
+        "Cleaning and Housekeeping",
+        "Dusting",
+        "Good Communication Skills",
+        "Hotel Housekeeping",
+        "House Keeping",
+        "Housekeeping",
+        "Housekeeping Management",
+        "Washing",
+        "Packing",
+        "24/7 work",
+        "Dish Washer",
+        "Mopping",
+        "Coffee-Tea-Juice",
+        "Peon Activities",
+        "Computer",
+        "Receptionist Activities"
+      ],
+      "location": "Ghatkopar East",
+      "city": "mumbai",
+      "previous_job_title": "Helper / Peon in Labour",
+      "qualification": "10th Pass",
+      "source": "workindia",
+      "is_looking_urgently": false,
+      "has_resume": false
+    },
+    {
+      "rank": 2,
+      "candidate_id": "f41a40627bafa98d37518cb48bf32d7de7a1497bfb12db470fa66b4d2812063c",
+      "name": "Jeroy Rodrigues",
+      "overall_score": 0.6331,
+      "score_breakdown": {
+        "semantic_similarity": 0.6602686643600464,
+        "skills_match": 1.0,
+        "experience_match": 0.3,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      },
+      "explanation": {
+        "strengths": [
+          "Strong skills match (100%)",
+          "Strong location match (100%)",
+          "Strong sector alignment (100%)",
+          "Mobile-verified profile"
+        ],
+        "weaknesses": [
+          "Limited experience relevance (30%)",
+          "Limited qualification level (30%)",
+          "Limited recruiter engagement (30%)"
+        ],
+        "skill_highlights": [
+          "Email",
+          "Maths",
+          "Music",
+          "Hindi",
+          "MS Word"
+        ],
+        "recommendation": "Recommended. Good fit with some areas for development.",
+        "confidence": "Medium",
+        "hybrid_score": 0.6331,
+        "top_dimensions": [
+          "Skills match",
+          "Location match",
+          "Sector alignment"
+        ],
+        "growth_areas": [
+          "Experience relevance",
+          "Qualification level",
+          "Recruiter engagement"
+        ]
+      },
+      "skills": [
+        "Basic Excel",
+        "Computer",
+        "Email",
+        "Good Communication Skills",
+        "MS Power Point",
+        "MS Word",
+        "Bike Riding",
+        "Last Mile Delivery",
+        "Loading",
+        "Packing",
+        "Picking and Packing",
+        "Maths",
+        "Music",
+        "English",
+        "Hindi",
+        "Marathi",
+        "MS Office",
+        "Ola Driver",
+        "Customer Handling",
+        "Bike Rider",
+        "Internet Surfing",
+        "Order Taking",
+        "Cleaning",
+        "Rapido Driver",
+        "Car Driver",
+        "Good Personality",
+        "Good Problem Solving Skills",
+        "Good Convincing Skills",
+        "Uber Driver",
+        "Waiter Activities",
+        "Client Management"
+      ],
+      "location": "Nalasopara West",
+      "city": "mumbai",
+      "qualification": "12th Pass",
+      "source": "workindia",
+      "is_looking_urgently": false,
+      "has_resume": false
+    },
+    {
+      "rank": 3,
+      "candidate_id": "ea5dd74be4b475b06335b335ac319aee14ad50eaae1d3b437c0c47cb7b9be0be",
+      "name": "Abhishek Suresh Gotad",
+      "overall_score": 0.6322,
+      "score_breakdown": {
+        "semantic_similarity": 0.5741105079650879,
+        "skills_match": 0.75,
+        "experience_match": 0.8,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      },
+      "explanation": {
+        "strengths": [
+          "Strong skills match (75%)",
+          "Strong experience relevance (80%)",
+          "Strong location match (100%)",
+          "Strong sector alignment (100%)",
+          "Mobile-verified profile"
+        ],
+        "weaknesses": [
+          "Limited qualification level (30%)",
+          "Limited recruiter engagement (30%)"
+        ],
+        "skill_highlights": [
+          "Email",
+          "MS Word",
+          "Computer",
+          "Cleaning",
+          "24/7 work"
+        ],
+        "recommendation": "Recommended. Good fit with some areas for development.",
+        "confidence": "Medium",
+        "hybrid_score": 0.6322,
+        "top_dimensions": [
+          "Skills match",
+          "Experience relevance",
+          "Location match"
+        ],
+        "growth_areas": [
+          "Qualification level",
+          "Recruiter engagement"
+        ]
+      },
+      "skills": [
+        "> 30 WPM Typing Speed",
+        "Basic Excel",
+        "Computer",
+        "Email",
+        "Good Communication Skills",
+        "Internet Surfing",
+        "MS Power Point",
+        "MS Word",
+        "Bike Riding",
+        "Last Mile Delivery",
+        "24/7 work",
+        "Caretaking",
+        "Cleaning",
+        "Cleaning and Housekeeping",
+        "Patient Care",
+        "Coffee-Tea-Juice",
+        "Housekeeping",
+        "Peon Activities"
+      ],
+      "location": "Jogeshwari East",
+      "city": "mumbai",
+      "previous_job_title": "Patient Care in Ward Helper",
+      "qualification": "12th Pass",
+      "source": "workindia",
+      "is_looking_urgently": false,
+      "has_resume": false
+    },
+    {
+      "rank": 4,
+      "candidate_id": "7b6f68291013b3b87b11ad1db4b36c2ce82d6f97f3e3a3e462038947e3a8ec03",
+      "name": "Azman Khan",
+      "overall_score": 0.6202,
+      "score_breakdown": {
+        "semantic_similarity": 0.650776743888855,
+        "skills_match": 1.0,
+        "experience_match": 0.3,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      },
+      "explanation": {
+        "strengths": [
+          "Strong skills match (100%)",
+          "Strong location match (100%)",
+          "Strong sector alignment (100%)",
+          "Mobile-verified profile"
+        ],
+        "weaknesses": [
+          "Limited experience relevance (30%)",
+          "Limited qualification level (20%)",
+          "Limited recruiter engagement (30%)"
+        ],
+        "skill_highlights": [
+          "Email",
+          "Hindi",
+          "Dusting",
+          "Washing",
+          "English"
+        ],
+        "recommendation": "Recommended. Good fit with some areas for development.",
+        "confidence": "Medium",
+        "hybrid_score": 0.6202,
+        "top_dimensions": [
+          "Skills match",
+          "Location match",
+          "Sector alignment"
+        ],
+        "growth_areas": [
+          "Experience relevance",
+          "Qualification level",
+          "Recruiter engagement"
+        ]
+      },
+      "skills": [
+        "Basic Excel",
+        "Bike Riding",
+        "Last Mile Delivery",
+        "Car Driver",
+        "Company Driver",
+        "Private Car Driver",
+        "Email",
+        "Bathroom Cleaning",
+        "Cleaning",
+        "Cleaning and Housekeeping",
+        "Dusting",
+        "Good Communication Skills",
+        "Hotel Housekeeping",
+        "House Keeping",
+        "Housekeeping",
+        "Room Service",
+        "Washing",
+        "Chat Support",
+        "Client Management",
+        "Collections",
+        "Computer",
+        "Debt Collection",
+        "Debt Recovery",
+        "Domestic",
+        "English",
+        "Field Collections",
+        "Hindi",
+        "Loan Recovery",
+        "Marathi",
+        "Outbound",
+        "Payment Collection"
+      ],
+      "location": "Virar East",
+      "city": "mumbai",
+      "qualification": "10th Pass",
+      "source": "workindia",
+      "is_looking_urgently": false,
+      "has_resume": false
+    },
+    {
+      "rank": 5,
+      "candidate_id": "2a5d956c01fa1957e0586aa73eebc9cc30738f1cc4e4cada8a0b299ecd8e2fad",
+      "name": "Aalok Jitendra Singh",
+      "overall_score": 0.6172,
+      "score_breakdown": {
+        "semantic_similarity": 0.718505859375,
+        "skills_match": 0.5833333333333334,
+        "experience_match": 0.8,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      },
+      "explanation": {
+        "strengths": [
+          "Strong semantic role fit (72%)",
+          "Strong experience relevance (80%)",
+          "Strong location match (100%)",
+          "Strong sector alignment (100%)",
+          "Mobile-verified profile"
+        ],
+        "weaknesses": [
+          "Limited qualification level (20%)",
+          "Limited english proficiency (30%)",
+          "Limited recruiter engagement (30%)"
+        ],
+        "skill_highlights": [
+          "Tally",
+          "Hindi",
+          "Sales",
+          "Packing",
+          "Baby Care"
+        ],
+        "recommendation": "Recommended. Good fit with some areas for development.",
+        "confidence": "Medium",
+        "hybrid_score": 0.6172,
+        "top_dimensions": [
+          "Semantic role fit",
+          "Experience relevance",
+          "Location match"
+        ],
+        "growth_areas": [
+          "Qualification level",
+          "English proficiency",
+          "Recruiter engagement"
+        ]
+      },
+      "skills": [
+        "Bike Riding",
+        "Packing",
+        "Baby Care",
+        "Basic Excel",
+        "Good Communication Skills",
+        "Tally",
+        "Cold Calling",
+        "Hindi",
+        "Sales",
+        "Patient Care"
+      ],
+      "location": "Kalyan West",
+      "city": "mumbai",
+      "qualification": "10th Pass",
+      "source": "workindia",
+      "is_looking_urgently": false,
+      "has_resume": false
+    },
+    {
+      "rank": 6,
+      "candidate_id": "8fb46bf3ffa02f18d53abbc7294d845af59c12b8d60177ae8835d4e3f4de5648",
+      "name": "Farmaan Ali Khan",
+      "overall_score": 0.5925,
+      "score_breakdown": {
+        "semantic_similarity": 0.758222222328186,
+        "skills_match": 0.5,
+        "experience_match": 0.3,
+        "qualification_match": 0.6,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      },
+      "explanation": {
+        "strengths": [
+          "Strong semantic role fit (76%)",
+          "Strong location match (100%)",
+          "Strong sector alignment (100%)",
+          "Mobile-verified profile"
+        ],
+        "weaknesses": [
+          "Limited experience relevance (30%)",
+          "Limited recruiter engagement (30%)"
+        ],
+        "skill_highlights": [
+          "Bike Riding",
+          "Last Mile Delivery"
+        ],
+        "recommendation": "Recommended. Good fit with some areas for development.",
+        "confidence": "Medium",
+        "hybrid_score": 0.5925,
+        "top_dimensions": [
+          "Semantic role fit",
+          "Location match",
+          "Sector alignment"
+        ],
+        "growth_areas": [
+          "Experience relevance",
+          "Recruiter engagement"
+        ]
+      },
+      "skills": [
+        "Bike Riding",
+        "Last Mile Delivery"
+      ],
+      "location": "Chunabhatti",
+      "city": "mumbai",
+      "qualification": "Graduate",
+      "source": "workindia",
+      "is_looking_urgently": false,
+      "has_resume": false
+    },
+    {
+      "rank": 7,
+      "candidate_id": "359d29652a83920390cd391020a67c7ebba22b1ca3e06424c14cf598f8cfd059",
+      "name": "ASHWANI KUMAR",
+      "overall_score": 0.5914,
+      "score_breakdown": {
+        "semantic_similarity": 0.8046814203262329,
+        "skills_match": 0.25,
+        "experience_match": 0.8,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      },
+      "explanation": {
+        "strengths": [
+          "Strong semantic role fit (80%)",
+          "Strong experience relevance (80%)",
+          "Strong location match (100%)",
+          "Strong sector alignment (100%)",
+          "Mobile-verified profile"
+        ],
+        "weaknesses": [
+          "Limited skills match (25%)",
+          "Limited qualification level (20%)",
+          "Limited recruiter engagement (30%)"
+        ],
+        "skill_highlights": [
+          "Bike Riding"
+        ],
+        "recommendation": "Recommended. Good fit with some areas for development.",
+        "confidence": "Medium",
+        "hybrid_score": 0.5914,
+        "top_dimensions": [
+          "Semantic role fit",
+          "Experience relevance",
+          "Location match"
+        ],
+        "growth_areas": [
+          "Skills match",
+          "Qualification level",
+          "Recruiter engagement"
+        ]
+      },
+      "skills": [
+        "Bike Riding"
+      ],
+      "location": "Belapur",
+      "city": "mumbai",
+      "qualification": "10th Pass",
+      "source": "workindia",
+      "is_looking_urgently": false,
+      "has_resume": false
+    },
+    {
+      "rank": 8,
+      "candidate_id": "cd16c7b6c96ae1509a838b17e20430054ca4d3449b3d40032a9bc65b5eb4831a",
+      "name": "Sahil Mishra",
+      "overall_score": 0.5869,
+      "score_breakdown": {
+        "semantic_similarity": 0.7008262276649475,
+        "skills_match": 0.8333333333333334,
+        "experience_match": 0.3,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      },
+      "explanation": {
+        "strengths": [
+          "Strong semantic role fit (70%)",
+          "Strong skills match (83%)",
+          "Strong location match (100%)",
+          "Strong sector alignment (100%)",
+          "Mobile-verified profile"
+        ],
+        "weaknesses": [
+          "Limited experience relevance (30%)",
+          "Limited qualification level (20%)",
+          "Limited english proficiency (30%)"
+        ],
+        "skill_highlights": [
+          "Car",
+          "Email",
+          "Hindi",
+          "Sales",
+          "Clothes"
+        ],
+        "recommendation": "Recommended. Good fit with some areas for development.",
+        "confidence": "Medium",
+        "hybrid_score": 0.5869,
+        "top_dimensions": [
+          "Semantic role fit",
+          "Skills match",
+          "Location match"
+        ],
+        "growth_areas": [
+          "Experience relevance",
+          "Qualification level",
+          "English proficiency"
+        ]
+      },
+      "skills": [
+        "Bike Riding",
+        "Car",
+        "Clothes",
+        "Counter Sales",
+        "Eye Wear",
+        "Garment",
+        "Home Appliances",
+        "Jewellery",
+        "Fire Protection",
+        "Chat Support",
+        "Client Management",
+        "Cold Calling",
+        "Collections",
+        "Computer",
+        "Debt Collection",
+        "Debt Recovery",
+        "Domestic",
+        "Email",
+        "English",
+        "Field Collections",
+        "Good Communication Skills",
+        "Hindi",
+        "Inbound",
+        "Inside Sales",
+        "Lead Generation",
+        "Marathi",
+        "Marketing",
+        "MS Office",
+        "Payment Collection",
+        "Sales"
+      ],
+      "location": "Vasai Road East",
+      "city": "mumbai",
+      "qualification": "10th Pass",
+      "source": "workindia",
+      "is_looking_urgently": false,
+      "has_resume": false
+    },
+    {
+      "rank": 9,
+      "candidate_id": "b37528e740d43523c35b6f6ab44ac812f81f35528a24c0502586b465b3ad2759",
+      "name": "Md Ashfaq",
+      "overall_score": 0.5845,
+      "score_breakdown": {
+        "semantic_similarity": 0.8148785829544067,
+        "skills_match": 0.25,
+        "experience_match": 0.8,
+        "qualification_match": 0.1,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      },
+      "explanation": {
+        "strengths": [
+          "Strong semantic role fit (81%)",
+          "Strong experience relevance (80%)",
+          "Strong location match (100%)",
+          "Strong sector alignment (100%)",
+          "Mobile-verified profile"
+        ],
+        "weaknesses": [
+          "Limited skills match (25%)",
+          "Limited qualification level (10%)",
+          "Limited recruiter engagement (30%)"
+        ],
+        "skill_highlights": [
+          "Bike Riding"
+        ],
+        "recommendation": "Recommended. Good fit with some areas for development.",
+        "confidence": "Medium",
+        "hybrid_score": 0.5845,
+        "top_dimensions": [
+          "Semantic role fit",
+          "Experience relevance",
+          "Location match"
+        ],
+        "growth_areas": [
+          "Skills match",
+          "Qualification level",
+          "Recruiter engagement"
+        ]
+      },
+      "skills": [
+        "Bike Riding"
+      ],
+      "location": "Boisar West",
+      "city": "mumbai",
+      "qualification": "< 10th Pass",
+      "source": "workindia",
+      "is_looking_urgently": false,
+      "has_resume": false
+    },
+    {
+      "rank": 10,
+      "candidate_id": "a1667b7e1ba3f3e067636ac16f8bf7fe90ec243e208b5cadee13e3857460d75f",
+      "name": "Vivek Yadav",
+      "overall_score": 0.5833,
+      "score_breakdown": {
+        "semantic_similarity": 0.7721430063247681,
+        "skills_match": 0.3333333333333333,
+        "experience_match": 0.8,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      },
+      "explanation": {
+        "strengths": [
+          "Strong semantic role fit (77%)",
+          "Strong experience relevance (80%)",
+          "Strong location match (100%)",
+          "Strong sector alignment (100%)",
+          "Mobile-verified profile"
+        ],
+        "weaknesses": [
+          "Limited skills match (33%)",
+          "Limited qualification level (20%)",
+          "Limited english proficiency (30%)"
+        ],
+        "skill_highlights": [
+          "Last Mile Delivery"
+        ],
+        "recommendation": "Recommended. Good fit with some areas for development.",
+        "confidence": "Medium",
+        "hybrid_score": 0.5833,
+        "top_dimensions": [
+          "Semantic role fit",
+          "Experience relevance",
+          "Location match"
+        ],
+        "growth_areas": [
+          "Skills match",
+          "Qualification level",
+          "English proficiency"
+        ]
+      },
+      "skills": [
+        "Last Mile Delivery"
+      ],
+      "location": "Maha Laxmi East",
+      "city": "mumbai",
+      "previous_job_title": "Food Delivery in Delivery",
+      "qualification": "10th Pass",
+      "source": "workindia",
+      "is_looking_urgently": false,
+      "has_resume": false
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "job_title": "Delivery Executive - Mumbai",
+  "ranked_candidates": [
+    {
+      "rank": 1,
+      "candidate_id": "6a895f08198b8122b7ced1b2d09accbd47da9ca6196d185ba84f548cd75d5a92",
+      "name": "Sumit Ghorpade",
+      "overall_score": 0.694,
+      "score_breakdown": {
+        "semantic_similarity": 0.6465504765510559,
+        "skills_match": 1.0,
+        "experience_match": 0.8,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      }
+    },
+    {
+      "rank": 2,
+      "candidate_id": "f41a40627bafa98d37518cb48bf32d7de7a1497bfb12db470fa66b4d2812063c",
+      "name": "Jeroy Rodrigues",
+      "overall_score": 0.6331,
+      "score_breakdown": {
+        "semantic_similarity": 0.6602686643600464,
+        "skills_match": 1.0,
+        "experience_match": 0.3,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      }
+    },
+    {
+      "rank": 3,
+      "candidate_id": "ea5dd74be4b475b06335b335ac319aee14ad50eaae1d3b437c0c47cb7b9be0be",
+      "name": "Abhishek Suresh Gotad",
+      "overall_score": 0.6322,
+      "score_breakdown": {
+        "semantic_similarity": 0.5741105079650879,
+        "skills_match": 0.75,
+        "experience_match": 0.8,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      }
+    },
+    {
+      "rank": 4,
+      "candidate_id": "7b6f68291013b3b87b11ad1db4b36c2ce82d6f97f3e3a3e462038947e3a8ec03",
+      "name": "Azman Khan",
+      "overall_score": 0.6202,
+      "score_breakdown": {
+        "semantic_similarity": 0.650776743888855,
+        "skills_match": 1.0,
+        "experience_match": 0.3,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      }
+    },
+    {
+      "rank": 5,
+      "candidate_id": "2a5d956c01fa1957e0586aa73eebc9cc30738f1cc4e4cada8a0b299ecd8e2fad",
+      "name": "Aalok Jitendra Singh",
+      "overall_score": 0.6172,
+      "score_breakdown": {
+        "semantic_similarity": 0.718505859375,
+        "skills_match": 0.5833333333333334,
+        "experience_match": 0.8,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      }
+    },
+    {
+      "rank": 6,
+      "candidate_id": "8fb46bf3ffa02f18d53abbc7294d845af59c12b8d60177ae8835d4e3f4de5648",
+      "name": "Farmaan Ali Khan",
+      "overall_score": 0.5925,
+      "score_breakdown": {
+        "semantic_similarity": 0.758222222328186,
+        "skills_match": 0.5,
+        "experience_match": 0.3,
+        "qualification_match": 0.6,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      }
+    },
+    {
+      "rank": 7,
+      "candidate_id": "359d29652a83920390cd391020a67c7ebba22b1ca3e06424c14cf598f8cfd059",
+      "name": "ASHWANI KUMAR",
+      "overall_score": 0.5914,
+      "score_breakdown": {
+        "semantic_similarity": 0.8046814203262329,
+        "skills_match": 0.25,
+        "experience_match": 0.8,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      }
+    },
+    {
+      "rank": 8,
+      "candidate_id": "cd16c7b6c96ae1509a838b17e20430054ca4d3449b3d40032a9bc65b5eb4831a",
+      "name": "Sahil Mishra",
+      "overall_score": 0.5869,
+      "score_breakdown": {
+        "semantic_similarity": 0.7008262276649475,
+        "skills_match": 0.8333333333333334,
+        "experience_match": 0.3,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      }
+    },
+    {
+      "rank": 9,
+      "candidate_id": "b37528e740d43523c35b6f6ab44ac812f81f35528a24c0502586b465b3ad2759",
+      "name": "Md Ashfaq",
+      "overall_score": 0.5845,
+      "score_breakdown": {
+        "semantic_similarity": 0.8148785829544067,
+        "skills_match": 0.25,
+        "experience_match": 0.8,
+        "qualification_match": 0.1,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      }
+    },
+    {
+      "rank": 10,
+      "candidate_id": "a1667b7e1ba3f3e067636ac16f8bf7fe90ec243e208b5cadee13e3857460d75f",
+      "name": "Vivek Yadav",
+      "overall_score": 0.5833,
+      "score_breakdown": {
+        "semantic_similarity": 0.7721430063247681,
+        "skills_match": 0.3333333333333333,
+        "experience_match": 0.8,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.3,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      }
+    }
+  ]
+}

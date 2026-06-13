@@ -1,0 +1,165 @@
+{
+  "job_title": "Sales Executive - Field Sales - Bangalore",
+  "ranked_candidates": [
+    {
+      "rank": 1,
+      "candidate_id": "ee89ff56b7c78864b586d71e92747ac32ac966ef2982d1a1e198c97ac628dd58",
+      "name": "Shaikh Ramijuddin",
+      "overall_score": 0.6475,
+      "score_breakdown": {
+        "semantic_similarity": 0.6250267028808594,
+        "skills_match": 1.0,
+        "experience_match": 0.8,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.55,
+        "location_match": 0.3,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 2,
+      "candidate_id": "c101825a352176e6d7090bb7001b807eba0913b22b1d8e0408a0d738c25cdebb",
+      "name": "Vivek Shukla",
+      "overall_score": 0.5995,
+      "score_breakdown": {
+        "semantic_similarity": 0.6649489402770996,
+        "skills_match": 1.0,
+        "experience_match": 0.3,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 1.0
+      }
+    },
+    {
+      "rank": 3,
+      "candidate_id": "09883c6313d397018176cab79076370b0401b68aa57e5ee9932084d85a59e3d4",
+      "name": "Gulam Moinuddin Shaikh",
+      "overall_score": 0.5963,
+      "score_breakdown": {
+        "semantic_similarity": 0.737808346748352,
+        "skills_match": 0.5,
+        "experience_match": 0.8,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 1.0
+      }
+    },
+    {
+      "rank": 4,
+      "candidate_id": "2bee45f84324955d9e8bbd578fe1d35d45d214c83a0783ec097c94b5f9cda657",
+      "name": "Sumit Sakpal",
+      "overall_score": 0.5938,
+      "score_breakdown": {
+        "semantic_similarity": 0.5793657302856445,
+        "skills_match": 1.0,
+        "experience_match": 0.8,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 5,
+      "candidate_id": "2a5d956c01fa1957e0586aa73eebc9cc30738f1cc4e4cada8a0b299ecd8e2fad",
+      "name": "Aalok Jitendra Singh",
+      "overall_score": 0.588,
+      "score_breakdown": {
+        "semantic_similarity": 0.5934716463088989,
+        "skills_match": 1.0,
+        "experience_match": 0.8,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 6,
+      "candidate_id": "6a895f08198b8122b7ced1b2d09accbd47da9ca6196d185ba84f548cd75d5a92",
+      "name": "Sumit Ghorpade",
+      "overall_score": 0.5829,
+      "score_breakdown": {
+        "semantic_similarity": 0.5261768102645874,
+        "skills_match": 1.0,
+        "experience_match": 0.8,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 7,
+      "candidate_id": "cd16c7b6c96ae1509a838b17e20430054ca4d3449b3d40032a9bc65b5eb4831a",
+      "name": "Sahil Mishra",
+      "overall_score": 0.5727,
+      "score_breakdown": {
+        "semantic_similarity": 0.6589787602424622,
+        "skills_match": 1.0,
+        "experience_match": 0.3,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 1.0
+      }
+    },
+    {
+      "rank": 8,
+      "candidate_id": "ff3002f12797e9da16d4a071b12657d411582478f55fbc803f431f45ed84f037",
+      "name": "Aaron Dsouza",
+      "overall_score": 0.5663,
+      "score_breakdown": {
+        "semantic_similarity": 0.6877436637878418,
+        "skills_match": 1.0,
+        "experience_match": 0.3,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 9,
+      "candidate_id": "f41a40627bafa98d37518cb48bf32d7de7a1497bfb12db470fa66b4d2812063c",
+      "name": "Jeroy Rodrigues",
+      "overall_score": 0.5635,
+      "score_breakdown": {
+        "semantic_similarity": 0.5449745059013367,
+        "skills_match": 1.0,
+        "experience_match": 0.3,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 1.0
+      }
+    },
+    {
+      "rank": 10,
+      "candidate_id": "d35aed2ae4599bb2d47209593b2b7febf0c7c3d0ddfdb0acfc1df0bd91eefe51",
+      "name": "Mohit Kumar",
+      "overall_score": 0.5527,
+      "score_breakdown": {
+        "semantic_similarity": 0.6422356963157654,
+        "skills_match": 0.5,
+        "experience_match": 0.8,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.0,
+        "behavioral_signals": 0.55,
+        "location_match": 0.3,
+        "sector_match": 1.0
+      }
+    }
+  ]
+}

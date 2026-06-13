@@ -1,0 +1,165 @@
+{
+  "job_title": "Security Guard - Delhi",
+  "ranked_candidates": [
+    {
+      "rank": 1,
+      "candidate_id": "6a895f08198b8122b7ced1b2d09accbd47da9ca6196d185ba84f548cd75d5a92",
+      "name": "Sumit Ghorpade",
+      "overall_score": 0.5583,
+      "score_breakdown": {
+        "semantic_similarity": 0.4442618787288666,
+        "skills_match": 1.0,
+        "experience_match": 0.8,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 2,
+      "candidate_id": "2bee45f84324955d9e8bbd578fe1d35d45d214c83a0783ec097c94b5f9cda657",
+      "name": "Sumit Sakpal",
+      "overall_score": 0.5577,
+      "score_breakdown": {
+        "semantic_similarity": 0.4589248299598694,
+        "skills_match": 1.0,
+        "experience_match": 0.8,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 3,
+      "candidate_id": "ee89ff56b7c78864b586d71e92747ac32ac966ef2982d1a1e198c97ac628dd58",
+      "name": "Shaikh Ramijuddin",
+      "overall_score": 0.5008,
+      "score_breakdown": {
+        "semantic_similarity": 0.4691980481147766,
+        "skills_match": 0.5,
+        "experience_match": 0.8,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.55,
+        "location_match": 0.3,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 4,
+      "candidate_id": "ff3002f12797e9da16d4a071b12657d411582478f55fbc803f431f45ed84f037",
+      "name": "Aaron Dsouza",
+      "overall_score": 0.4945,
+      "score_breakdown": {
+        "semantic_similarity": 0.4482218027114868,
+        "skills_match": 1.0,
+        "experience_match": 0.3,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 5,
+      "candidate_id": "c101825a352176e6d7090bb7001b807eba0913b22b1d8e0408a0d738c25cdebb",
+      "name": "Vivek Shukla",
+      "overall_score": 0.4909,
+      "score_breakdown": {
+        "semantic_similarity": 0.43634217977523804,
+        "skills_match": 1.0,
+        "experience_match": 0.3,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 6,
+      "candidate_id": "7b6f68291013b3b87b11ad1db4b36c2ce82d6f97f3e3a3e462038947e3a8ec03",
+      "name": "Azman Khan",
+      "overall_score": 0.4865,
+      "score_breakdown": {
+        "semantic_similarity": 0.4549320936203003,
+        "skills_match": 1.0,
+        "experience_match": 0.3,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 7,
+      "candidate_id": "f41a40627bafa98d37518cb48bf32d7de7a1497bfb12db470fa66b4d2812063c",
+      "name": "Jeroy Rodrigues",
+      "overall_score": 0.4806,
+      "score_breakdown": {
+        "semantic_similarity": 0.40203261375427246,
+        "skills_match": 1.0,
+        "experience_match": 0.3,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 8,
+      "candidate_id": "ea5dd74be4b475b06335b335ac319aee14ad50eaae1d3b437c0c47cb7b9be0be",
+      "name": "Abhishek Suresh Gotad",
+      "overall_score": 0.4713,
+      "score_breakdown": {
+        "semantic_similarity": 0.45432808995246887,
+        "skills_match": 0.5,
+        "experience_match": 0.8,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 9,
+      "candidate_id": "cd16c7b6c96ae1509a838b17e20430054ca4d3449b3d40032a9bc65b5eb4831a",
+      "name": "Sahil Mishra",
+      "overall_score": 0.4694,
+      "score_breakdown": {
+        "semantic_similarity": 0.4480031430721283,
+        "skills_match": 1.0,
+        "experience_match": 0.3,
+        "qualification_match": 0.2,
+        "english_proficiency": 0.3,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 0.2
+      }
+    },
+    {
+      "rank": 10,
+      "candidate_id": "09883c6313d397018176cab79076370b0401b68aa57e5ee9932084d85a59e3d4",
+      "name": "Gulam Moinuddin Shaikh",
+      "overall_score": 0.4654,
+      "score_breakdown": {
+        "semantic_similarity": 0.4348149001598358,
+        "skills_match": 0.5,
+        "experience_match": 0.8,
+        "qualification_match": 0.3,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.3,
+        "location_match": 0.3,
+        "sector_match": 0.2
+      }
+    }
+  ]
+}

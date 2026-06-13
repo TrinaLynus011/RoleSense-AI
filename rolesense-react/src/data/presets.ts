@@ -1,0 +1,8 @@
+import type { DemoPreset } from "@/lib/types";
+export const DEMO_TEMPLATES: DemoPreset[] = [
+  { label: "AI Engineer", jd: "Looking for an AI/ML Engineer with 3+ years of experience in Python, TensorFlow, PyTorch, NLP, and computer vision. Experience with LLMs, RAG pipelines, and deploying machine learning models to production.", skills: "Python, TensorFlow, PyTorch, NLP", location: "Bangalore", experience: 3 },
+  { label: "Data Scientist", jd: "Hiring a Data Scientist with 4+ years of experience in statistical analysis, machine learning, SQL, and data visualization. Proficiency in Python/R, experience with big data tools like Spark.", skills: "Python, SQL, Machine Learning, Statistics", location: "Mumbai", experience: 4 },
+  { label: "Delivery Executive", jd: "Looking for a Delivery Executive with 1-3 years of experience in logistics, supply chain management, and last-mile delivery operations. Must have excellent communication skills.", skills: "Logistics, Communication, Supply Chain", location: "Delhi", experience: 2 },
+  { label: "Sales Executive", jd: "Seeking a Sales Executive with 2+ years of B2B sales experience. Must have strong negotiation skills, CRM experience (Salesforce preferred), and a proven track record of meeting quotas.", skills: "B2B Sales, CRM, Negotiation, Communication", location: "Mumbai", experience: 3 },
+  { label: "Security Guard", jd: "Hiring Security Guards with 1+ years of experience in physical security, surveillance systems, and access control. Must be physically fit, have strong observation skills.", skills: "Security, Surveillance, Access Control", location: "Delhi", experience: 1 },
+];
