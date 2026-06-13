@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npm install && npm run build",
+  "buildCommand": "npm install && npm run build:prod",
   "outputDirectory": "dist/browser",
   "installCommand": "npm install",
   "framework": "angular",
