@@ -40,7 +40,7 @@ ENV HF_DATASETS_OFFLINE=1
 RUN python -c "\
 from sentence_transformers import SentenceTransformer; \
 m = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2'); \
-print('Model cached OK, dim=', m.get_embedding_dimension())"
+print('Model cached OK, dim=', m.get_sentence_embedding_dimension())"
 
 EXPOSE 8000
 

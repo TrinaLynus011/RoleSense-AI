@@ -33,7 +33,10 @@ class EmbeddingEngine:
         # Use the absolute local path to skip all HuggingFace Hub network checks
         resolved = _DEFAULT_MODEL if model_name == "all-MiniLM-L6-v2" else model_name
         self.model = SentenceTransformer(resolved)
-        self._dimension = self.model.get_embedding_dimension()
+        if hasattr(self.model, "get_embedding_dimension"):
+            self._dimension = self.model.get_embedding_dimension()
+        else:
+            self._dimension = self.model.get_sentence_embedding_dimension()
         self.use_cache = use_cache
         self.cache = EmbeddingCache(namespace=model_name.replace("/", "_")) if use_cache else None
         self.faiss_index: Optional[FAISSIndex] = None

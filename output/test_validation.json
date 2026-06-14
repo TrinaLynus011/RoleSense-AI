@@ -333,14 +333,14 @@
       "rank": 5,
       "candidate_id": "2a5d956c01fa1957e0586aa73eebc9cc30738f1cc4e4cada8a0b299ecd8e2fad",
       "name": "Aalok Jitendra Singh",
-      "overall_score": 0.6172,
+      "overall_score": 0.6122,
       "score_breakdown": {
         "semantic_similarity": 0.718505859375,
         "skills_match": 0.5833333333333334,
         "experience_match": 0.8,
         "qualification_match": 0.2,
         "english_proficiency": 0.3,
-        "behavioral_signals": 0.3,
+        "behavioral_signals": 0.25,
         "location_match": 1.0,
         "sector_match": 1.0
       },
@@ -355,7 +355,7 @@
         "weaknesses": [
           "Limited qualification level (20%)",
           "Limited english proficiency (30%)",
-          "Limited recruiter engagement (30%)"
+          "Limited recruiter engagement (25%)"
         ],
         "skill_highlights": [
           "Tally",
@@ -366,7 +366,7 @@
         ],
         "recommendation": "Recommended. Good fit with some areas for development.",
         "confidence": "Medium",
-        "hybrid_score": 0.6172,
+        "hybrid_score": 0.6122,
         "top_dimensions": [
           "Semantic role fit",
           "Experience relevance",
@@ -453,61 +453,6 @@
     },
     {
       "rank": 7,
-      "candidate_id": "359d29652a83920390cd391020a67c7ebba22b1ca3e06424c14cf598f8cfd059",
-      "name": "ASHWANI KUMAR",
-      "overall_score": 0.5914,
-      "score_breakdown": {
-        "semantic_similarity": 0.8046814203262329,
-        "skills_match": 0.25,
-        "experience_match": 0.8,
-        "qualification_match": 0.2,
-        "english_proficiency": 0.6,
-        "behavioral_signals": 0.3,
-        "location_match": 1.0,
-        "sector_match": 1.0
-      },
-      "explanation": {
-        "strengths": [
-          "Strong semantic role fit (80%)",
-          "Strong experience relevance (80%)",
-          "Strong location match (100%)",
-          "Strong sector alignment (100%)",
-          "Mobile-verified profile"
-        ],
-        "weaknesses": [
-          "Limited skills match (25%)",
-          "Limited qualification level (20%)",
-          "Limited recruiter engagement (30%)"
-        ],
-        "skill_highlights": [
-          "Bike Riding"
-        ],
-        "recommendation": "Recommended. Good fit with some areas for development.",
-        "confidence": "Medium",
-        "hybrid_score": 0.5914,
-        "top_dimensions": [
-          "Semantic role fit",
-          "Experience relevance",
-          "Location match"
-        ],
-        "growth_areas": [
-          "Skills match",
-          "Qualification level",
-          "Recruiter engagement"
-        ]
-      },
-      "skills": [
-        "Bike Riding"
-      ],
-      "location": "Belapur",
-      "city": "mumbai",
-      "qualification": "10th Pass",
-      "source": "workindia",
-      "is_looking_urgently": false,
-      "has_resume": false
-    },
-    {
-      "rank": 8,
       "candidate_id": "cd16c7b6c96ae1509a838b17e20430054ca4d3449b3d40032a9bc65b5eb4831a",
       "name": "Sahil Mishra",
       "overall_score": 0.5869,
@@ -595,23 +540,23 @@
       "has_resume": false
     },
     {
-      "rank": 9,
-      "candidate_id": "b37528e740d43523c35b6f6ab44ac812f81f35528a24c0502586b465b3ad2759",
-      "name": "Md Ashfaq",
-      "overall_score": 0.5845,
+      "rank": 8,
+      "candidate_id": "359d29652a83920390cd391020a67c7ebba22b1ca3e06424c14cf598f8cfd059",
+      "name": "ASHWANI KUMAR",
+      "overall_score": 0.5864,
       "score_breakdown": {
-        "semantic_similarity": 0.8148785829544067,
+        "semantic_similarity": 0.8046814203262329,
         "skills_match": 0.25,
         "experience_match": 0.8,
-        "qualification_match": 0.1,
+        "qualification_match": 0.2,
         "english_proficiency": 0.6,
-        "behavioral_signals": 0.3,
+        "behavioral_signals": 0.25,
         "location_match": 1.0,
         "sector_match": 1.0
       },
       "explanation": {
         "strengths": [
-          "Strong semantic role fit (81%)",
+          "Strong semantic role fit (80%)",
           "Strong experience relevance (80%)",
           "Strong location match (100%)",
           "Strong sector alignment (100%)",
@@ -619,15 +564,15 @@
         ],
         "weaknesses": [
           "Limited skills match (25%)",
-          "Limited qualification level (10%)",
-          "Limited recruiter engagement (30%)"
+          "Limited qualification level (20%)",
+          "Limited recruiter engagement (25%)"
         ],
         "skill_highlights": [
           "Bike Riding"
         ],
         "recommendation": "Recommended. Good fit with some areas for development.",
         "confidence": "Medium",
-        "hybrid_score": 0.5845,
+        "hybrid_score": 0.5864,
         "top_dimensions": [
           "Semantic role fit",
           "Experience relevance",
@@ -642,15 +587,15 @@
       "skills": [
         "Bike Riding"
       ],
-      "location": "Boisar West",
+      "location": "Belapur",
       "city": "mumbai",
-      "qualification": "< 10th Pass",
+      "qualification": "10th Pass",
       "source": "workindia",
       "is_looking_urgently": false,
       "has_resume": false
     },
     {
-      "rank": 10,
+      "rank": 9,
       "candidate_id": "a1667b7e1ba3f3e067636ac16f8bf7fe90ec243e208b5cadee13e3857460d75f",
       "name": "Vivek Yadav",
       "overall_score": 0.5833,
@@ -701,6 +646,61 @@
       "city": "mumbai",
       "previous_job_title": "Food Delivery in Delivery",
       "qualification": "10th Pass",
+      "source": "workindia",
+      "is_looking_urgently": false,
+      "has_resume": false
+    },
+    {
+      "rank": 10,
+      "candidate_id": "b37528e740d43523c35b6f6ab44ac812f81f35528a24c0502586b465b3ad2759",
+      "name": "Md Ashfaq",
+      "overall_score": 0.5795,
+      "score_breakdown": {
+        "semantic_similarity": 0.8148785829544067,
+        "skills_match": 0.25,
+        "experience_match": 0.8,
+        "qualification_match": 0.1,
+        "english_proficiency": 0.6,
+        "behavioral_signals": 0.25,
+        "location_match": 1.0,
+        "sector_match": 1.0
+      },
+      "explanation": {
+        "strengths": [
+          "Strong semantic role fit (81%)",
+          "Strong experience relevance (80%)",
+          "Strong location match (100%)",
+          "Strong sector alignment (100%)",
+          "Mobile-verified profile"
+        ],
+        "weaknesses": [
+          "Limited skills match (25%)",
+          "Limited qualification level (10%)",
+          "Limited recruiter engagement (25%)"
+        ],
+        "skill_highlights": [
+          "Bike Riding"
+        ],
+        "recommendation": "Recommended. Good fit with some areas for development.",
+        "confidence": "Medium",
+        "hybrid_score": 0.5795,
+        "top_dimensions": [
+          "Semantic role fit",
+          "Experience relevance",
+          "Location match"
+        ],
+        "growth_areas": [
+          "Skills match",
+          "Qualification level",
+          "Recruiter engagement"
+        ]
+      },
+      "skills": [
+        "Bike Riding"
+      ],
+      "location": "Boisar West",
+      "city": "mumbai",
+      "qualification": "< 10th Pass",
       "source": "workindia",
       "is_looking_urgently": false,
       "has_resume": false

@@ -1,4 +1,4 @@
-import { Component, input, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, input, AfterViewInit, ViewChild, ElementRef, effect } from '@angular/core';
 import { Analytics } from '../../../core/models/user.model';
 import ApexCharts from 'apexcharts';
 
@@ -51,8 +51,20 @@ export class AnalyticsChartsComponent implements AfterViewInit {
   @ViewChild('confidenceChart') confidenceChartEl!: ElementRef;
 
   private _charts: any[] = [];
+  private _viewInitialized = false;
+
+  constructor() {
+    effect(() => {
+      // Access signal to register reactivity
+      const d = this.data();
+      if (this._viewInitialized) {
+        this._render();
+      }
+    });
+  }
 
   ngAfterViewInit(): void {
+    this._viewInitialized = true;
     setTimeout(() => this._render(), 100);
   }
 

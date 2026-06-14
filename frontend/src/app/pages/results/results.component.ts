@@ -11,7 +11,16 @@ import * as XLSX from 'xlsx';
 // Fail-safe resolver for SheetJS (xlsx) CJS/ESM interop in modern bundlers
 const getXLSX = () => {
   const X = XLSX as any;
-  const main = X.utils ? X : (X.default || X);
+  let main = X;
+  if (!main || (!main.utils && main.default)) {
+    main = main.default;
+  }
+  if (!main || (!main.utils && main.default)) {
+    main = main.default;
+  }
+  if (!main || !main.utils) {
+    throw new Error('SheetJS (xlsx) library not resolved correctly.');
+  }
   return {
     utils: main.utils,
     write: main.write,
@@ -291,11 +300,29 @@ export class ResultsComponent implements OnInit {
 
   exportCSV(): void {
     try {
-      const { utils } = getXLSX();
       const rows = this._toRows();
-      const ws = utils.json_to_sheet(rows);
-      const csv = utils.sheet_to_csv(ws);
-      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      if (!rows.length) {
+        alert('No data to export.');
+        return;
+      }
+      const headers = Object.keys(rows[0]);
+      
+      // Build CSV with proper UTF-8 BOM and escapes
+      const csvContent = [
+        headers.join(','),
+        ...rows.map(row => 
+          headers.map(header => {
+            const val = row[header] ?? '';
+            const stringified = String(val).replace(/"/g, '""');
+            if (stringified.includes(',') || stringified.includes('"') || stringified.includes('\n') || stringified.includes('\r')) {
+              return `"${stringified}"`;
+            }
+            return stringified;
+          }).join(',')
+        )
+      ].join('\r\n');
+
+      const blob = new Blob([new Uint8Array([0xEF, 0xBB, 0xBF]), csvContent], { type: 'text/csv;charset=utf-8;' });
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
