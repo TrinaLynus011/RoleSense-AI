@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "buildCommand": "npm install && npm run build:prod",
-  "outputDirectory": "dist/browser",
+  "buildCommand": "npm run build:prod",
+  "outputDirectory": "dist/rolesense-ai/browser",
   "installCommand": "npm install",
   "framework": "angular",
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

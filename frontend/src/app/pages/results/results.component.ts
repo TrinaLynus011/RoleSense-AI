@@ -241,10 +241,20 @@ export class ResultsComponent implements OnInit {
   }
 
   exportJSON(): void {
-    const blob = new Blob([JSON.stringify(this.candidates(), null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a'); a.href = url; a.download = 'rolesense_rankings.json'; a.click();
-    URL.revokeObjectURL(url);
+    try {
+      const blob = new Blob([JSON.stringify(this.candidates(), null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'rolesense_rankings.json';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch (e) {
+      console.error('JSON Export failed:', e);
+      alert('JSON Export failed: ' + (e instanceof Error ? e.message : String(e)));
+    }
   }
 
   private _toRows(): Record<string, any>[] {
@@ -269,29 +279,55 @@ export class ResultsComponent implements OnInit {
   }
 
   exportCSV(): void {
-    const rows = this._toRows();
-    const ws = XLSX.utils.json_to_sheet(rows);
-    const csv = XLSX.utils.sheet_to_csv(ws);
-    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a'); a.href = url; a.download = 'rolesense_rankings.csv'; a.click();
-    URL.revokeObjectURL(url);
+    try {
+      const rows = this._toRows();
+      const ws = XLSX.utils.json_to_sheet(rows);
+      const csv = XLSX.utils.sheet_to_csv(ws);
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'rolesense_rankings.csv';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch (e) {
+      console.error('CSV Export failed:', e);
+      alert('CSV Export failed: ' + (e instanceof Error ? e.message : String(e)));
+    }
   }
 
   exportXLSX(): void {
-    const rows = this._toRows();
-    const ws = XLSX.utils.json_to_sheet(rows);
+    try {
+      const rows = this._toRows();
+      const ws = XLSX.utils.json_to_sheet(rows);
 
-    // Column widths
-    ws['!cols'] = [
-      { wch: 6 }, { wch: 24 }, { wch: 10 }, { wch: 12 }, { wch: 20 },
-      { wch: 14 }, { wch: 40 }, { wch: 18 }, { wch: 14 }, { wch: 18 },
-      { wch: 20 }, { wch: 18 }, { wch: 18 }, { wch: 14 }, { wch: 14 },
-      { wch: 40 },
-    ];
+      // Column widths
+      ws['!cols'] = [
+        { wch: 6 }, { wch: 24 }, { wch: 10 }, { wch: 12 }, { wch: 20 },
+        { wch: 14 }, { wch: 40 }, { wch: 18 }, { wch: 14 }, { wch: 18 },
+        { wch: 20 }, { wch: 18 }, { wch: 18 }, { wch: 14 }, { wch: 14 },
+        { wch: 40 },
+      ];
 
-    const wb = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(wb, ws, 'Rankings');
-    XLSX.writeFile(wb, 'rolesense_rankings.xlsx');
+      const wb = XLSX.utils.book_new();
+      XLSX.utils.book_append_sheet(wb, ws, 'Rankings');
+      
+      const wbout = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
+      const blob = new Blob([wbout], { type: 'application/octet-stream' });
+      const url = URL.createObjectURL(blob);
+      
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'rolesense_rankings.xlsx';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch (e) {
+      console.error('XLSX Export failed:', e);
+      alert('XLSX Export failed: ' + (e instanceof Error ? e.message : String(e)));
+    }
   }
 }
