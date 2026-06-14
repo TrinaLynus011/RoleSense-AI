@@ -8,6 +8,17 @@ import { ApiService } from '../../core/services/api.service';
 import { Candidate } from '../../core/models/user.model';
 import * as XLSX from 'xlsx';
 
+// Fail-safe resolver for SheetJS (xlsx) CJS/ESM interop in modern bundlers
+const getXLSX = () => {
+  const X = XLSX as any;
+  const main = X.utils ? X : (X.default || X);
+  return {
+    utils: main.utils,
+    write: main.write,
+    writeFile: main.writeFile
+  };
+};
+
 @Component({
   selector: 'app-results',
   standalone: true,
@@ -280,9 +291,10 @@ export class ResultsComponent implements OnInit {
 
   exportCSV(): void {
     try {
+      const { utils } = getXLSX();
       const rows = this._toRows();
-      const ws = XLSX.utils.json_to_sheet(rows);
-      const csv = XLSX.utils.sheet_to_csv(ws);
+      const ws = utils.json_to_sheet(rows);
+      const csv = utils.sheet_to_csv(ws);
       const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
@@ -300,8 +312,9 @@ export class ResultsComponent implements OnInit {
 
   exportXLSX(): void {
     try {
+      const { utils, write } = getXLSX();
       const rows = this._toRows();
-      const ws = XLSX.utils.json_to_sheet(rows);
+      const ws = utils.json_to_sheet(rows);
 
       // Column widths
       ws['!cols'] = [
@@ -311,10 +324,10 @@ export class ResultsComponent implements OnInit {
         { wch: 40 },
       ];
 
-      const wb = XLSX.utils.book_new();
-      XLSX.utils.book_append_sheet(wb, ws, 'Rankings');
+      const wb = utils.book_new();
+      utils.book_append_sheet(wb, ws, 'Rankings');
       
-      const wbout = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
+      const wbout = write(wb, { bookType: 'xlsx', type: 'array' });
       const blob = new Blob([wbout], { type: 'application/octet-stream' });
       const url = URL.createObjectURL(blob);
       
